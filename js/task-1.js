@@ -46,3 +46,16 @@
 const num = prompt();
 
 let resuit;
+
+switch (num) {
+  case (num = 1):
+    break;
+  case value:
+    break;
+  case value:
+    break;
+  case value:
+    break;
+  default:
+    break;
+}
