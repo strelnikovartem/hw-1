@@ -8,3 +8,5 @@
 // перетворіть значення на число за допомогою Number().
 
 const namber = prompt();
+
+const total = Number(namber) === 10 ? alert("Вірно") : alert("Невірно");
