@@ -11,6 +11,8 @@
 
 // const total = Number(namber) === 10 ? alert("Вірно") : alert("Невірно");
 
+//! task-2//
+
 // У змінній min лежить випадкове число від 0 до 59.
 // Визначте, в яку чверть години потрапляє
 // це число (у першу, другу, третю чи четверту).
@@ -19,6 +21,9 @@
 
 const min = Math.floor(Math.random() * (59 - 0) + 0);
 
-if (condition) {
+if (min >= 15) {
+  console.log(alert(`${min} входить в першу чверть`));
+} else if (condition) {
+} else if (condition) {
 } else {
 }
