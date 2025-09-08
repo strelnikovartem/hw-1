@@ -25,6 +25,8 @@ if (min <= 15) {
   console.log(alert(`${min} входить в першу чверть`));
 } else if (min > 15 && min <= 30) {
   console.log(alert(`${min} входить в 2 чверть`));
-} else if (condition) {
+} else if (min > 30 && min <= 45) {
+  console.log(alert(`${min} входить в 3 чверть`));
 } else {
+  console.log(alert(`${min} входить в 4 чверть`));
 }
