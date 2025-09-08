@@ -21,9 +21,10 @@
 
 const min = Math.floor(Math.random() * (59 - 0) + 0);
 
-if (min >= 15) {
+if (min <= 15) {
   console.log(alert(`${min} входить в першу чверть`));
-} else if (condition) {
+} else if (min > 15 && min <= 30) {
+  console.log(alert(`${min} входить в 2 чверть`));
 } else if (condition) {
 } else {
 }
