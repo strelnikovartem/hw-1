@@ -48,7 +48,8 @@ const num = prompt();
 let resuit;
 
 switch (num) {
-  case (num = 1):
+  case 1:
+    "зима";
     break;
   case value:
     break;
