@@ -47,16 +47,20 @@ const num = prompt();
 
 let resuit;
 
-switch (num) {
+switch (Number(num)) {
   case 1:
-    "зима";
+    console.log("зима");
     break;
-  case value:
+  case 2:
+    console.log("весна");
     break;
-  case value:
+  case 3:
+    console.log("зим");
     break;
-  case value:
+  case 4:
+    console.log("зи");
     break;
   default:
+    console.log("Вибачте, але ви маєте ввести значення від 1 до 4 включно");
     break;
 }
