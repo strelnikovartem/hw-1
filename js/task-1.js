@@ -43,24 +43,32 @@
 // "Вибачте, але ви маєте ввести значення від 1 до 4 включно".
 // Значення змінної result виведіть в консоль.
 
-const num = prompt();
+// const num = prompt();
 
-let resuit;
+// let resuit;
 
-switch (Number(num)) {
-  case 1:
-    console.log("зима");
-    break;
-  case 2:
-    console.log("весна");
-    break;
-  case 3:
-    console.log("зим");
-    break;
-  case 4:
-    console.log("зи");
-    break;
-  default:
-    console.log("Вибачте, але ви маєте ввести значення від 1 до 4 включно");
-    break;
-}
+// switch (Number(num)) {
+//   case 1:
+//     console.log("зима");
+//     break;
+//   case 2:
+//     console.log("весна");
+//     break;
+//   case 3:
+//     console.log("зим");
+//     break;
+//   case 4:
+//     console.log("зи");
+//     break;
+//   default:
+//     console.log("Вибачте, але ви маєте ввести значення від 1 до 4 включно");
+//     break;
+// }
+
+//? task-4//
+
+// Отримуйте від користувача число (кількість хвилин) через prompt
+// і виводьте у консоль рядок у форматі годин та хвилин.
+// Приклад: користувач вводить в prompt '70' -> в консолі відобразиться '01:10'.
+// Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'):
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples
