@@ -75,7 +75,11 @@
 
 const num = Number(prompt());
 
-const hours = String(Math.floor(num / 60)).padStart(2, "0");
-const minutes = String(Math.floor(num - 60)).padStart(2, "0");
+if (isNaN(num)) {
+  alert("error");
+} else {
+  const hours = String(Math.floor(num / 60)).padStart(2, "0");
+  const minutes = String(Math.floor(num % 60)).padStart(2, "0");
 
-console.log(`${hours}:${minutes}`);
+  console.log(`${hours}:${minutes}`);
+}
