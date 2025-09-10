@@ -75,7 +75,7 @@
 
 const num = Number(prompt());
 
-const hours = Math.floor(num / 60).padStart(2, "0");
-const minutes = Math.floor(num - 60);
+const hours = String(Math.floor(num / 60)).padStart(2, "0");
+const minutes = String(Math.floor(num - 60)).padStart(2, "0");
 
-const time = console.log(`${hours}:${min}`);
+console.log(`${hours}:${minutes}`);
