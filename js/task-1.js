@@ -75,10 +75,15 @@
 
 const num = prompt();
 
+const targetLength = num.length;
+
 function leftFillNum(num, targetLength) {
   if (num <= 60) {
-    return num.toString().padStart(targetLength, "0");
+    num.padStart(targetLength, "0");
+  } else {
+    num / 60;
   }
+  return num;
 }
 
 console.log(num);
