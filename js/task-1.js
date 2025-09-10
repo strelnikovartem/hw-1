@@ -73,7 +73,7 @@
 // Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'):
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples
 
-const num = prompt();
+const num = Number(prompt());
 
 const targetLength = num.length;
 
