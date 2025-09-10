@@ -75,15 +75,20 @@
 
 const num = Number(prompt());
 
-const targetLength = num.length;
+const hours = Math.floor(num / 60);
+const min = Math.floor(num - 60);
 
-function leftFillNum(num, targetLength) {
-  if (num <= 60) {
-    num.padStart(targetLength, "0");
-  } else {
-    num / 60;
-  }
-  return num;
-}
+console.log(`${hours}:${min}`);
 
-console.log(num);
+// const targetLength = num.length;
+
+// function leftFillNum(num, targetLength) {
+//   if (num <= 60) {
+//     num.padStart(targetLength, "0");
+//   } else {
+//     num / 60;
+//   }
+//   return num;
+// }
+
+// console.log(num);
