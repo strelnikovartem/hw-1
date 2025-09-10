@@ -75,8 +75,8 @@
 
 const num = prompt();
 
-function leftFillNum(num, targetLength) {
-  return num.toString().padStart(targetLength, "0");
-}
+// function leftFillNum(num, targetLength) {
+//   return num.toString().padStart(targetLength, "0");
+// }
 
-console.log(leftFillNum(num, 2));
+// console.log(leftFillNum(num, 2));
