@@ -78,17 +78,10 @@ const num = Number(prompt());
 const hours = Math.floor(num / 60);
 const min = Math.floor(num - 60);
 
-console.log(`${hours}:${min}`);
+const targetLength = num.length;
 
-// const targetLength = num.length;
+function leftFillNum(hours, targetLength) {
+  return num.toString().padStart(targetLength, "0");
+}
 
-// function leftFillNum(num, targetLength) {
-//   if (num <= 60) {
-//     num.padStart(targetLength, "0");
-//   } else {
-//     num / 60;
-//   }
-//   return num;
-// }
-
-// console.log(num);
+const time = console.log(`${hours}:${min}`);
