@@ -76,7 +76,9 @@
 const num = prompt();
 
 function leftFillNum(num, t) {
-  return num.toString().padStart(t, "0");
+  if (num <= 60) {
+    return num.toString().padStart(t, "0");
+  }
 }
 
-console.log(leftFillNum(num, 2));
+console.log(num);
