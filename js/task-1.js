@@ -103,6 +103,12 @@
 
 const login = prompt("логін");
 
-if (login === "Адмін") {
-  prompt("пароль");
-}
+console.log(login);
+
+// const password = 0;
+
+// if (login === "Адмін") {
+//   password = prompt("пароль");
+// }
+
+// console.log(password);
