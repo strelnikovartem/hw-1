@@ -104,5 +104,5 @@
 const login = prompt("логін");
 
 if (login === "Адмін") {
-  console.log("hello");
+  prompt("пароль");
 }
