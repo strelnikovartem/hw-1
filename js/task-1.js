@@ -105,10 +105,10 @@ const login = prompt("логін");
 
 console.log(login);
 
-// const password = 0;
+let password;
 
-// if (login === "Адмін") {
-//   password = prompt("пароль");
-// }
+if (login === "Адмін") {
+  password = prompt("пароль");
+}
 
-// console.log(password);
+console.log(password);
