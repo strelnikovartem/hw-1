@@ -107,6 +107,10 @@ console.log(login);
 
 let password;
 
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+}
+
 if (login === "Адмін") {
   password = prompt("пароль");
 }
