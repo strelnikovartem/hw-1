@@ -109,9 +109,9 @@ if (login === "Адмін") {
   password = prompt("пароль");
 }
 
-// if (password === ) {
-
-// }
+if (password) {
+  alert("Скасовано");
+}
 
 console.log(password);
 
