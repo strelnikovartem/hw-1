@@ -105,7 +105,7 @@ const login = prompt("логін");
 
 const index = login.length - 1;
 
-console.log(index);
+console.log(login[index]);
 
 // let password;
 
