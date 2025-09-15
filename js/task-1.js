@@ -103,25 +103,29 @@
 
 const login = prompt("логін");
 
-let password;
+const index = login.length - 1;
 
-if (login === "Адмін") {
-  password = prompt("пароль");
-}
+console.log(index);
 
-if (password) {
-  alert("Скасовано");
-}
+// let password;
 
-console.log(password);
+// if (login === "Адмін") {
+//   password = prompt("пароль");
+// }
+
+// if (password) {
+//   alert("Скасовано");
+// }
+
+// console.log(password);
 
 //! task-6//
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
-while (condition) {}
+// while (condition) {}
 
-console.log();
+// console.log();
 
 //? task-7//
 
