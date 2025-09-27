@@ -107,13 +107,13 @@ let password;
 
 if (login === "Адмін") {
   password = prompt("пароль");
+
+  if (password === null || password === "") {
+    alert("Скасовано");
+  }
 }
 
-if (password) {
-  alert("Скасовано");
-}
-
-console.log(password);
+// console.log(password);
 
 //! task-6//
 
