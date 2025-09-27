@@ -125,20 +125,7 @@
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
-// while (condition) {}
-
-const num = 40;
-
-switch (num) {
-  case 5:
-    console.log("o no");
-    break;
-  case 4:
-    console.log("pop");
-    break;
-  default:
-    console.log("def");
-}
+while (condition) {}
 
 console.log();
 
@@ -177,4 +164,4 @@ function isAdult(age) {}
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-console.log(3 !== "3");
+console.log();
