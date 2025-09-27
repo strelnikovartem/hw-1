@@ -125,7 +125,20 @@
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
-while (condition) {}
+// while (condition) {}
+
+const num = 5;
+
+switch (num) {
+  case 5:
+    console.log("o no");
+    break;
+  case 4:
+    console.log("pop");
+    break;
+  default:
+    console.log("def");
+}
 
 console.log();
 
