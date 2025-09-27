@@ -101,23 +101,23 @@
 // то вивести в alert рядок "Добрий день!",
 // в іншому випадку вивести в alert рядок "Невірний пароль!"
 
-const login = prompt("логін");
+// const login = prompt("логін");
 
-if (login === "Адмін") {
-  const password = prompt("пароль");
+// if (login === "Адмін") {
+//   const password = prompt("пароль");
 
-  if (password === null || password === "") {
-    alert("Скасовано");
-  } else if (password === "Я головний") {
-    alert("Добрий день!");
-  } else {
-    alert("Невірний пароль!");
-  }
-} else if (login === null || login === "") {
-  alert("Скасовано");
-} else {
-  alert("Я вас не знаю");
-}
+//   if (password === null || password === "") {
+//     alert("Скасовано");
+//   } else if (password === "Я головний") {
+//     alert("Добрий день!");
+//   } else {
+//     alert("Невірний пароль!");
+//   }
+// } else if (login === null || login === "") {
+//   alert("Скасовано");
+// } else {
+//   alert("Я вас не знаю");
+// }
 
 // console.log(password);
 
@@ -125,9 +125,9 @@ if (login === "Адмін") {
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
-// while (condition) {}
+while (condition) {}
 
-// console.log();
+console.log();
 
 //? task-7//
 
