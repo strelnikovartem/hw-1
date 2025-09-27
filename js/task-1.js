@@ -103,17 +103,17 @@
 
 const login = prompt("логін");
 
-// let password;
+let password;
 
-// if (login === "Адмін") {
-//   password = prompt("пароль");
-// }
+if (login === "Адмін") {
+  password = prompt("пароль");
+}
 
-// if (password) {
-//   alert("Скасовано");
-// }
+if (password) {
+  alert("Скасовано");
+}
 
-// console.log(password);
+console.log(password);
 
 //! task-6//
 
