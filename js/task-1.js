@@ -127,7 +127,7 @@
 
 // while (condition) {}
 
-const num = 5;
+const num = 40;
 
 switch (num) {
   case 5:
