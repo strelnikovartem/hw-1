@@ -103,14 +103,20 @@
 
 const login = prompt("логін");
 
-let password;
-
 if (login === "Адмін") {
-  password = prompt("пароль");
+  const password = prompt("пароль");
 
   if (password === null || password === "") {
     alert("Скасовано");
+  } else if (password === "Я головний") {
+    alert("Добрий день!");
+  } else {
+    alert("Невірний пароль!");
   }
+} else if (login === null || login === "") {
+  alert("Скасовано");
+} else {
+  alert("Я вас не знаю");
 }
 
 // console.log(password);
