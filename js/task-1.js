@@ -127,7 +127,7 @@
 
 // while (condition) {}
 
-const user = "Dan Fuk";
+const user = "                 Dan Fuk";
 
 const str = user.trim();
 const str1 = user.toUpperCase();
