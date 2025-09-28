@@ -129,7 +129,7 @@
 
 const user = "Dan Fuk";
 
-const str = user.toLowerCase();
+const str = user.includes("da");
 const str1 = user.toUpperCase();
 
 console.log(str);
