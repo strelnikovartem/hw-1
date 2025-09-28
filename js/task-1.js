@@ -127,11 +127,13 @@
 
 // while (condition) {}
 
-const user = "ftffftttt///,jjuii";
+let user = "ftffftttt///,jjuii";
 
 if (!user.endsWith("/")) {
-  console.log("ok");
+  user += "/";
 }
+
+console.log(user);
 
 //? task-7//
 
