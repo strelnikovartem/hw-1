@@ -127,13 +127,11 @@
 
 // while (condition) {}
 
-const user = "                 Dan Fuk";
+const user = "ftffftttt///,jjuii";
 
-const str = user.trim();
-const str1 = user.toUpperCase();
-
-console.log(str);
-console.log(str1);
+if (!user.endsWith("/")) {
+  console.log("ok");
+}
 
 //? task-7//
 
