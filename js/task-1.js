@@ -127,9 +127,11 @@
 
 // while (condition) {}
 
-const str = "Dan Fuk";
+const user = "Dan Fuk";
 
-console.log();
+const str = user.slice(0, 3);
+
+console.log(str);
 
 //? task-7//
 
