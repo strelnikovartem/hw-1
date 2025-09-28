@@ -129,7 +129,7 @@
 
 const user = "Dan Fuk";
 
-const str = user.slice(0, 3);
+const str = user.slice(3);
 
 console.log(str);
 
