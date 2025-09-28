@@ -127,13 +127,7 @@
 
 // while (condition) {}
 
-let user = "ftffftttt///,jjuii";
-
-if (!user.endsWith("/") && user.includes("tttt")) {
-  user += "/";
-}
-
-console.log(user);
+console.log();
 
 //? task-7//
 
