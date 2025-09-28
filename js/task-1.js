@@ -129,9 +129,11 @@
 
 const user = "Dan Fuk";
 
-const str = user.slice(3);
+const str = user.toLowerCase();
+const str1 = user.toUpperCase();
 
 console.log(str);
+console.log(str1);
 
 //? task-7//
 
