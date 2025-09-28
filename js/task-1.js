@@ -129,8 +129,8 @@
 
 let user = "ftffftttt///,jjuii";
 
-if (!user.endsWith("/")) {
-  user += "/";
+if (!user.endsWith("/") && user.includes("tttt")) {
+  console.log("ok");
 }
 
 console.log(user);
