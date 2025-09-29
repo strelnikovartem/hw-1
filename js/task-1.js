@@ -143,11 +143,8 @@
 
 function getNumbers(min, max) {
   for (let i = max; i < min; i--) {
-    if (i % 2 === 0) {
-      console.log(i);
-    }
+    console.log(i);
   }
-  //   return i;
 }
 
 getNumbers(2, 4);
