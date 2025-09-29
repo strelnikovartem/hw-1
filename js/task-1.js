@@ -144,10 +144,13 @@
 function getNumbers(min, max) {
   for (let i = max; i < min; i--) {
     if (i % 2 === 0) {
-      return i;
+      i++;
     }
   }
+  return i;
 }
+
+// getNumbers(2, 4);
 
 console.log(getNumbers(2, 4));
 
