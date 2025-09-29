@@ -125,12 +125,12 @@
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
-let counter = 0;
+// let counter = 0;
 
-while (counter <= 20) {
-  console.log(counter);
-  counter++;
-}
+// while (counter <= 20) {
+//   console.log(counter);
+//   counter++;
+// }
 
 //? task-7//
 
@@ -141,7 +141,15 @@ while (counter <= 20) {
 // Окрім цього, підрахуйте суму всіх парних чисел в цьому циклі
 // і поверніть її з функції.
 
-function name(params) {}
+function getNumbers(min, max) {
+  for (let i = max; i < min; i--) {
+    if (i % 2 === 0) {
+      return i;
+    }
+  }
+}
+
+console.log(getNumbers(2, 4));
 
 //! task-8//
 
