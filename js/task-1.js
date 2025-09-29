@@ -125,7 +125,9 @@
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
-// while (condition) {}
+let counter = 20;
+
+while (condition) {}
 
 console.log();
 
