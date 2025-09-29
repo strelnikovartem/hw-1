@@ -142,8 +142,10 @@
 // і поверніть її з функції.
 
 function getNumbers(min, max) {
-  for (let i = max; i < min; i--) {
-    console.log(i);
+  for (let i = max; i > min; i--) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
   }
 }
 
