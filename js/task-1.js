@@ -144,7 +144,6 @@
 function getNumbers(min, max) {
   for (let i = max; i > min; i--) {
     if (i % 2 === 0) {
-      //   i += i;
       console.log(i);
     }
   }
