@@ -161,6 +161,8 @@
 
 function min(a, b) {}
 
+console.log(min(6, 10));
+
 //! task-9//
 
 // Напишіть функцію isAdult(age), яка  приймає число - вік користувача і повертає true,
