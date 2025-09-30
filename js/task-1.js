@@ -159,7 +159,12 @@
 // Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
 // повертати з функції рядок - 'Not a number!'.
 
-function min(a, b) {}
+function min(a, b) {
+  if (isNaN(a) && isNaN(b)) {
+    const minNam = a < b ? a : b;
+    return minNam;
+  }
+}
 
 console.log(min(6, 10));
 
