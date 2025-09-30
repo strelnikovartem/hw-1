@@ -142,10 +142,12 @@
 // і поверніть її з функції.
 
 function getNumbers(min, max) {
+  let total = 0;
   for (let i = max; i > min; i--) {
     if (i % 2 === 0) {
-      console.log((i );
+      total = i;
     }
+    return total;
   }
 }
 
