@@ -159,16 +159,16 @@
 // Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
 // повертати з функції рядок - 'Not a number!'.
 
-function min(a, b) {
-  if (isNaN(a) || isNaN(b)) {
-    return "Not a number!";
-  }
-  return a < b ? a : b;
-}
+// function min(a, b) {
+//   if (isNaN(a) || isNaN(b)) {
+//     return "Not a number!";
+//   }
+//   return a < b ? a : b;
+// }
 
-console.log(min(6, 10));
-console.log(min(152, 3));
-console.log(min("x", 5));
+// console.log(min(6, 10));
+// console.log(min(152, 3));
+// console.log(min("x", 5));
 
 //! task-9//
 
