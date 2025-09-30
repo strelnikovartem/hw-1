@@ -141,17 +141,17 @@
 // Окрім цього, підрахуйте суму всіх парних чисел в цьому циклі
 // і поверніть її з функції.
 
-function getNumbers(min, max) {
-  let total = 0;
-  for (let i = max; i >= min; i--) {
-    if (i % 2 === 0) {
-      total += i;
-    }
-  }
-  return total;
-}
+// function getNumbers(min, max) {
+//   let total = 0;
+//   for (let i = max; i >= min; i--) {
+//     if (i % 2 === 0) {
+//       total += i;
+//     }
+//   }
+//   return total;
+// }
 
-console.log(getNumbers(2, 4));
+// console.log(getNumbers(2, 9));
 
 //! task-8//
 
