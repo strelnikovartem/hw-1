@@ -143,17 +143,15 @@
 
 function getNumbers(min, max) {
   let total = 0;
-  for (let i = max; i > min; i--) {
+  for (let i = max; i >= min; i--) {
     if (i % 2 === 0) {
-      total = i;
+      total += i;
     }
-    return total;
   }
+  return total;
 }
 
-getNumbers(2, 4);
-
-// console.log(getNumbers(2, 4));
+console.log(getNumbers(2, 4));
 
 //! task-8//
 
