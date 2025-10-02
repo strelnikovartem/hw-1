@@ -190,14 +190,10 @@ console.log();
 
 //! task-11
 
-function duble(min, max) {
-  let total = 0;
-  for (let i = min; i <= max; i++) {
-    if (i % 2 === 0) {
-      total += i;
-    }
-  }
-  return total;
-}
+const isConfirmed = confirm("Ви хочете вийти з акаунту?");
 
-console.log(duble(0, 5));
+if (isConfirmed) {
+  alert("Вийшли!");
+} else {
+  alert("Залишились у системі");
+}
