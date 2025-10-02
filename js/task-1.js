@@ -187,3 +187,17 @@ function isAdult(age) {}
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
 console.log();
+
+//! task-11
+
+function duble(min, max) {
+  let total = 0;
+  for (let i = min; i <= max; i++) {
+    if (i % 2 === 0) {
+      total += i;
+    }
+  }
+  return total;
+}
+
+console.log(duble(0, 5));
