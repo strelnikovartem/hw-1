@@ -177,7 +177,10 @@
 // В іншому випадку вона запитує підтвердження через confirm
 // і повертає його результат (true/false).
 
-function isAdult(age) {}
+function isAdult(age) {
+  if (age >= 18) {
+  }
+}
 
 //! task-10//
 
