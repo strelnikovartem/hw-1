@@ -189,7 +189,6 @@
 //   }
 // }
 
-// // ✅ Перевірка
 // console.log(isAdult(20)); // true
 // console.log(isAdult(15)); // покаже confirm, поверне true/false
 // console.log(isAdult(18));
