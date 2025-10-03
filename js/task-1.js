@@ -182,6 +182,8 @@ function isAdult(age) {
   }
 }
 
+console.log(isAdult(18));
+
 //! task-10//
 
 // Напишіть функцію fizzBuzz(num), яка приймає число і перевіряє кожне число від 1 до num:
@@ -193,10 +195,10 @@ console.log();
 
 //! task-11
 
-const isConfirmed = confirm("Ви хочете вийти з акаунту?");
+// const isConfirmed = confirm("Ви хочете вийти з акаунту?");
 
-if (isConfirmed) {
-  alert("Вийшли!");
-} else {
-  alert("Залишились у системі");
-}
+// if (isConfirmed) {
+//   alert("Вийшли!");
+// } else {
+//   alert("Залишились у системі");
+// }
