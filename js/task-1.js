@@ -178,9 +178,20 @@
 // і повертає його результат (true/false).
 
 function isAdult(age) {
+  if (typeof age !== "number" || isNaN(age)) {
+    return "Not a number!";
+  }
+
   if (age >= 18) {
+    return true;
+  } else {
+    return confirm("Вам ще немає 18. Батьки дозволяють?");
   }
 }
+
+// ✅ Перевірка
+console.log(isAdult(20)); // true
+console.log(isAdult(15)); // покаже confirm, поверне true/false
 
 console.log(isAdult(18));
 
