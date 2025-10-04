@@ -201,7 +201,7 @@
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
 function fizzBuzz(num) {
-  for (let i = 1; i < num; i++) {
+  for (let i = 1; i <= num; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
       console.log("fizzbuzz");
       console.log("fizz");
@@ -214,8 +214,24 @@ function fizzBuzz(num) {
     }
   }
 }
+fizzBuzz(15);
 
-console.log(fizzBuzz(15));
+// function fizzBuzz(num) {
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("fizzbuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("buzz");
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// // ✅ Перевірка
+// fizzBuzz(15);
 
 //! task-11
 
