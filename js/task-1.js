@@ -200,21 +200,21 @@
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-function fizzBuzz(num) {
-  for (let i = 1; i <= num; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-      console.log("fizzbuzz");
-      console.log("fizz");
-    } else if (i % 5 === 0) {
-      console.log("buzz");
-    } else if (i % 3 === 0) {
-      console.log("fizz");
-    } else {
-      console.log(i);
-    }
-  }
-}
-fizzBuzz(15);
+// function fizzBuzz(num) {
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("fizzbuzz");
+//       console.log("fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("buzz");
+//     } else if (i % 3 === 0) {
+//       console.log("fizz");
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+// fizzBuzz(15);
 
 // function fizzBuzz(num) {
 //   for (let i = 1; i <= num; i++) {
@@ -242,3 +242,5 @@ fizzBuzz(15);
 // } else {
 //   alert("Залишились у системі");
 // }
+
+//! task-12
