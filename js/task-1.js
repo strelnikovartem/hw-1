@@ -244,3 +244,7 @@
 // }
 
 //! task-12
+
+function check(text, answer) {}
+
+console.log(check("golf is good", "golf"));
