@@ -200,8 +200,8 @@
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-const max = 0;
-const min = 5;
+const min = 0;
+const max = 5;
 let total = 0;
 
 for (let i = min; i <= max; i++) {
