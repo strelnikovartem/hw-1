@@ -247,6 +247,10 @@
 
 function check(text, answer) {
   let massege = prompt(text);
+  if (massege) {
+    massege = massege.toLowerCase();
+  }
+  return massege === answer;
 }
 
 console.log(check("golf is good", "golf"));
