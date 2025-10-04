@@ -210,7 +210,7 @@ for (let i = min; i <= max; i++) {
   }
 }
 
-console.log();
+// console.log();
 
 //! task-11
 
