@@ -245,6 +245,8 @@
 
 //! task-12
 
-function check(text, answer) {}
+function check(text, answer) {
+  let massege = prompt(text);
+}
 
 console.log(check("golf is good", "golf"));
