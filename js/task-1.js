@@ -245,12 +245,12 @@
 
 //! task-12
 
-function check(text, answer) {
-  let massege = prompt(text);
-  if (massege) {
-    massege = massege.toLowerCase().trim();
-  }
-  return massege === answer;
-}
+// function check(text, answer) {
+//   let massege = prompt(text);
+//   if (massege) {
+//     massege = massege.toLowerCase().trim();
+//   }
+//   return massege === answer;
+// }
 
-console.log(check("golf is good", "golf"));
+// console.log(check("golf is good", "golf"));
