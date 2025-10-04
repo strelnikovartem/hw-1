@@ -248,7 +248,7 @@
 function check(text, answer) {
   let massege = prompt(text);
   if (massege) {
-    massege = massege.toLowerCase();
+    massege = massege.toLowerCase().trim();
   }
   return massege === answer;
 }
