@@ -200,17 +200,19 @@
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-const min = 0;
-const max = 5;
-let total = 0;
-
-for (let i = min; i <= max; i++) {
-  if (i % 2) {
-    console.log(i);
+function fizzBuzz(num) {
+  for (let i = 1; i < num; i++) {
+    if (i % 3 === 0) {
+      console.log("fizz");
+    } else if (i % 5 === 0) {
+      console.log("buzz");
+    } else if (i % 3 === 0 && i % 5 === 0) {
+      console.log("fizzbuzz");
+    }
   }
 }
 
-// console.log();
+console.log(fizzBuzz(15));
 
 //! task-11
 
